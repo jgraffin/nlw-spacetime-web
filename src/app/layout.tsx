@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Hero />
             <Copyright />
           </div>
-          <div className="p16 flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover">
+          <div className="p16 flex max-h-screen flex-col overflow-y-scroll bg-[url(../assets/bg-stars.svg)] bg-cover">
             {children}
           </div>
         </main>
